@@ -4,18 +4,29 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 img {
-margin: 0 3px 3px 3px;
+margin: 0 3px 3px ;
 }
 
 
 .search {
   margin: 50px 0;
-  width: 30%;
+  width: 60%;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid lightgrey;
+}
+
+
+@media (min-width: 900px) {
+  img {
+  margin: 0 20px 30px 20px;
+  }
+
+  .search {
+    width: 30%;
+  }
 }
